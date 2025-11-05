@@ -15,6 +15,12 @@ public class TUGAS{
 
         System.out.println("algoritma dan pemrograman : ");
         double algoritmaDanPemrograman = input.nextDouble();
+
+        System.out.println("masukkan nilai rekayasa perangkat lunak : ");
+        double rekayasaPerangkatLunak = input.nextDouble();
+        
+        
+    }
         
         
     }
