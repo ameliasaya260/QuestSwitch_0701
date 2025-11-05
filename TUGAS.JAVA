@@ -34,6 +34,11 @@ public class TUGAS{
         } else {
             predikat = "C (kurang)";
         }
+
+        System.out.println("\n=== HASIL PENILAIAN ===");
+        System.out.printf("Rata-rata nilai:%.2f\n", rataRata);
+        System.out.printf("IPK (sederhana): %.2f\n", ipk);
+        System.out.println("Predikat: " + predikat);
         
     }
 
