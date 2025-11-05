@@ -1,5 +1,5 @@
 import java.until.Scanner;
-public class TUGAS{
+public class TUGAS {
     public static void main (String[] args){
         Scanner input = new Scanner (System.in);
         
@@ -40,6 +40,40 @@ public class TUGAS{
         System.out.printf("IPK (sederhana): %.2f\n", ipk);
         System.out.println("Predikat: " + predikat);
         
+        if (predikat.startsWith("A")) { // A atau AB
+            System.out.println("\nAnda memenuhi syarat untuk mendaftar sebagai Asisten Dosen.");
+            System.out.println("Pilih mata kuliah yang ingin diajukan:");
+            System.out.println("1. Struktur Data");
+            System.out.println("2. Pemrograman Berorientasi Objek");
+            System.out.println("3. Basis Data");
+            System.out.println("4. Algoritma dan Pemrograman");
+            System.out.println("5. Rekayasa Perangkat Lunak");
+
+            System.out.print("Masukkan pilihan (1-5): ");
+            int pilihan = ns.nextInt();
+            double nilaiPilihan = 0;
+
+            switch (pilihan) {
+                case 1:
+                    nilaiPilihan = strukturData;
+                    break;
+                case 2:
+                    nilaiPilihan = pbo;
+                    break;
+                case 3:
+                    nilaiPilihan = basisData;
+                    break;
+                case 4:
+                    nilaiPilihan = algoritma;
+                    break;
+                case 5:
+                    nilaiPilihan = rpl;
+                    break;
+                default:
+                    System.out.println("Pilihan tidak valid.");
+                    ns.close();
+                    return;
+            }
     }
 
 }
