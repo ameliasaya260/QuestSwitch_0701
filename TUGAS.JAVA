@@ -6,8 +6,11 @@ public class TUGAS{
         System out.println("masukkan nilai struktur data : ");
         double strukturData = ns.nextDouble();
 
-        System out.println("masukkan nilai pemrograman berorientasi objek : ");
-        double pemrogramanBerorientasiObjek = ns.nextDouble();
+        System.out.println("masukkan nilai pemrograman berorientasi objek : ");
+        double pemrogramanBerorientasiObjek = input.nextDouble();
+
+        System.out.println("masukkan nilai basis data : ");
+        double basisData = input.nextDouble();
 
         
         
