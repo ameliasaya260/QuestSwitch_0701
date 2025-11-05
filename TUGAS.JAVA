@@ -9,9 +9,15 @@ public class TUGAS{
         System.out.println("masukkan nilai pemrograman berorientasi objek : ");
         double pemrogramanBerorientasiObjek = input.nextDouble();
 
+        
         System.out.println("masukkan nilai basis data : ");
         double basisData = input.nextDouble();
 
+        System.out.println("algoritma dan pemrograman : ");
+        double algoritmaDanPemrograman = input.nextDouble();
+        
+        
+    }
         
         
     }
