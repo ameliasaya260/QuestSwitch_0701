@@ -21,13 +21,19 @@ public class TUGAS{
 
         double rataRata = (struktur data + pemrogramanBerorientasiObek + basisData + algoritmaPemrograman + rekayasaPerangkatLunak) / 5;
         double ipk = (rataRata/100)*4; 
-        
-        
-    }
-        
-        
-    }
-        
+
+        String predikat;
+        if (ipk >= 3.75) {
+            predikat = "A (sangat baik)";
+        } else if (ipk >= 3.5) {
+            predikat = "AB (baik sekali)";
+        } else if (ipk >= 3.0) {
+            predikat = "B (baik)";
+        } else if (ipk >= 2.5) {
+            predikat = "BC (cukup)";
+        } else {
+            predikat = "C (kurang)";
+        }
         
     }
 
