@@ -74,6 +74,18 @@ public class TUGAS {
                     ns.close();
                     return;
             }
+
+            if (nilaiPilihan >= 75) {
+                System.out.println("Selamat! Anda eligible untuk menjadi Asisten Dosen pada mata kuliah yang dipilih.");
+            } else {
+                System.out.println("Maaf, nilai Anda pada mata kuliah tersebut belum memenuhi syarat (minimal 75).");
+            }
+        } else {
+            System.out.println("\nMaaf, Anda belum memenuhi syarat untuk mendaftar sebagai Asisten Dosen.");
+        }
+
+        input.close();
+
     }
 
 }
