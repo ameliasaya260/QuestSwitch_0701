@@ -18,6 +18,9 @@ public class TUGAS{
 
         System.out.println("masukkan nilai rekayasa perangkat lunak : ");
         double rekayasaPerangkatLunak = input.nextDouble();
+
+        double rataRata = (struktur data + pemrogramanBerorientasiObek + basisData + algoritmaPemrograman + rekayasaPerangkatLunak) / 5;
+        double ipk = (rataRata/100)*4; 
         
         
     }
